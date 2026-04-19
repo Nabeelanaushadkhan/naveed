@@ -6,7 +6,7 @@ pipeline {
 
         stage('Clean Build') {
             steps {
-                sh 'mvn clean package
+                sh 'mvn clean package'
             }
         }
 
